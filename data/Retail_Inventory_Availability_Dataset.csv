@@ -1,0 +1,51 @@
+product,location,quantity,in_stock
+MacBook Pro 14-inch,Auckland,20,Yes
+MacBook Pro 14-inch,Wellington,0,No
+MacBook Pro 14-inch,Christchurch,1,Yes
+MacBook Pro 14-inch,Hamilton,10,Yes
+MacBook Pro 14-inch,Dunedin,24,Yes
+Dell XPS 13,Auckland,34,Yes
+Dell XPS 13,Wellington,6,Yes
+Dell XPS 13,Christchurch,25,Yes
+Dell XPS 13,Hamilton,22,Yes
+Dell XPS 13,Dunedin,11,Yes
+HP Envy Laptop,Auckland,46,Yes
+HP Envy Laptop,Wellington,31,Yes
+HP Envy Laptop,Christchurch,36,Yes
+HP Envy Laptop,Hamilton,44,Yes
+HP Envy Laptop,Dunedin,16,Yes
+Logitech MX Master 3 Mouse,Auckland,43,Yes
+Logitech MX Master 3 Mouse,Wellington,28,Yes
+Logitech MX Master 3 Mouse,Christchurch,24,Yes
+Logitech MX Master 3 Mouse,Hamilton,12,Yes
+Logitech MX Master 3 Mouse,Dunedin,34,Yes
+Samsung 32-inch Curved Monitor,Auckland,29,Yes
+Samsung 32-inch Curved Monitor,Wellington,12,Yes
+Samsung 32-inch Curved Monitor,Christchurch,48,Yes
+Samsung 32-inch Curved Monitor,Hamilton,32,Yes
+Samsung 32-inch Curved Monitor,Dunedin,32,Yes
+Canon Pixma Printer,Auckland,36,Yes
+Canon Pixma Printer,Wellington,31,Yes
+Canon Pixma Printer,Christchurch,37,Yes
+Canon Pixma Printer,Hamilton,30,Yes
+Canon Pixma Printer,Dunedin,20,Yes
+Asus ROG Gaming Laptop,Auckland,13,Yes
+Asus ROG Gaming Laptop,Wellington,49,Yes
+Asus ROG Gaming Laptop,Christchurch,38,Yes
+Asus ROG Gaming Laptop,Hamilton,16,Yes
+Asus ROG Gaming Laptop,Dunedin,40,Yes
+Raspberry Pi 4,Auckland,44,Yes
+Raspberry Pi 4,Wellington,19,Yes
+Raspberry Pi 4,Christchurch,45,Yes
+Raspberry Pi 4,Hamilton,48,Yes
+Raspberry Pi 4,Dunedin,11,Yes
+Seagate 2TB External HDD,Auckland,28,Yes
+Seagate 2TB External HDD,Wellington,40,Yes
+Seagate 2TB External HDD,Christchurch,37,Yes
+Seagate 2TB External HDD,Hamilton,19,Yes
+Seagate 2TB External HDD,Dunedin,20,Yes
+Lenovo ThinkPad X1 Carbon,Auckland,41,Yes
+Lenovo ThinkPad X1 Carbon,Wellington,4,Yes
+Lenovo ThinkPad X1 Carbon,Christchurch,10,Yes
+Lenovo ThinkPad X1 Carbon,Hamilton,39,Yes
+Lenovo ThinkPad X1 Carbon,Dunedin,33,Yes

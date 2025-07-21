@@ -1,0 +1,201 @@
+order_id,customer_email,product,quantity,order_date,ship_date,delivery_date,status,delivery_city
+ORD0001,customer1@example.com,Samsung Curved Monitor,3,2025-07-07,2025-07-09,,Cancelled,Hamilton
+ORD0002,customer2@example.com,HP LaserJet Printer,4,2025-07-06,2025-07-08,,Cancelled,Hamilton
+ORD0003,customer3@example.com,Asus ROG Gaming Laptop,3,2025-07-06,2025-07-07,,Cancelled,Christchurch
+ORD0004,customer4@example.com,Dell XPS 13,3,2025-06-29,2025-06-30,,Cancelled,Dunedin
+ORD0005,customer5@example.com,Logitech MX Keys,4,2025-06-25,2025-06-29,,Cancelled,Christchurch
+ORD0006,customer6@example.com,Dell XPS 13,1,2025-06-25,2025-06-27,,Cancelled,Dunedin
+ORD0007,customer7@example.com,Asus ROG Gaming Laptop,2,2025-06-24,2025-06-28,,Cancelled,Dunedin
+ORD0008,customer8@example.com,Samsung Curved Monitor,4,2025-06-30,,,Processing,Auckland
+ORD0009,customer9@example.com,HP LaserJet Printer,5,2025-07-03,,,Processing,Wellington
+ORD0010,customer10@example.com,Asus ROG Gaming Laptop,3,2025-06-24,2025-06-26,,Cancelled,Dunedin
+ORD0011,customer11@example.com,Samsung Curved Monitor,5,2025-06-26,2025-06-29,,Shipped,Christchurch
+ORD0012,customer12@example.com,Dell XPS 13,4,2025-06-26,2025-06-27,,Out for Delivery,Wellington
+ORD0013,customer13@example.com,MacBook Pro 14-inch,1,2025-07-05,2025-07-06,,Cancelled,Christchurch
+ORD0014,customer14@example.com,Samsung Curved Monitor,1,2025-06-28,2025-07-01,,Shipped,Christchurch
+ORD0015,customer15@example.com,Logitech MX Keys,5,2025-06-25,2025-06-30,2025-07-04,Delivered,Auckland
+ORD0016,customer16@example.com,Logitech MX Keys,5,2025-06-26,2025-06-30,,Out for Delivery,Wellington
+ORD0017,customer17@example.com,Asus ROG Gaming Laptop,5,2025-06-30,,,Processing,Auckland
+ORD0018,customer18@example.com,MacBook Pro 14-inch,4,2025-06-25,2025-06-29,2025-07-03,Delivered,Auckland
+ORD0019,customer19@example.com,Samsung Curved Monitor,4,2025-07-08,,,Processing,Wellington
+ORD0020,customer20@example.com,Asus ROG Gaming Laptop,1,2025-07-07,,,Processing,Wellington
+ORD0021,customer21@example.com,Dell XPS 13,2,2025-07-07,2025-07-09,2025-07-11,Delivered,Dunedin
+ORD0022,customer22@example.com,Asus ROG Gaming Laptop,2,2025-07-07,2025-07-08,,Shipped,Christchurch
+ORD0023,customer23@example.com,Asus ROG Gaming Laptop,3,2025-07-02,2025-07-06,2025-07-09,Delivered,Auckland
+ORD0024,customer24@example.com,MacBook Pro 14-inch,5,2025-07-08,,,Processing,Dunedin
+ORD0025,customer25@example.com,Samsung Curved Monitor,4,2025-07-08,2025-07-12,,Cancelled,Wellington
+ORD0026,customer26@example.com,Samsung Curved Monitor,1,2025-07-04,,,Processing,Christchurch
+ORD0027,customer27@example.com,MacBook Pro 14-inch,3,2025-06-30,2025-07-01,,Shipped,Dunedin
+ORD0028,customer28@example.com,Asus ROG Gaming Laptop,5,2025-07-05,2025-07-09,,Out for Delivery,Auckland
+ORD0029,customer29@example.com,Logitech MX Keys,1,2025-06-30,2025-07-01,,Cancelled,Hamilton
+ORD0030,customer30@example.com,Asus ROG Gaming Laptop,5,2025-07-08,,,Processing,Christchurch
+ORD0031,customer31@example.com,HP LaserJet Printer,1,2025-06-29,2025-07-02,,Cancelled,Hamilton
+ORD0032,customer32@example.com,Asus ROG Gaming Laptop,2,2025-07-01,2025-07-03,,Cancelled,Dunedin
+ORD0033,customer33@example.com,MacBook Pro 14-inch,2,2025-07-05,2025-07-06,2025-07-08,Delivered,Wellington
+ORD0034,customer34@example.com,Logitech MX Keys,4,2025-06-28,2025-07-03,2025-07-04,Delivered,Dunedin
+ORD0035,customer35@example.com,Logitech MX Keys,1,2025-07-02,2025-07-05,,Out for Delivery,Auckland
+ORD0036,customer36@example.com,MacBook Pro 14-inch,5,2025-06-25,2025-06-27,,Cancelled,Christchurch
+ORD0037,customer37@example.com,Dell XPS 13,4,2025-06-24,2025-06-28,,Shipped,Auckland
+ORD0038,customer38@example.com,Samsung Curved Monitor,2,2025-07-03,2025-07-04,,Out for Delivery,Wellington
+ORD0039,customer39@example.com,Samsung Curved Monitor,5,2025-06-24,2025-06-25,2025-06-27,Delivered,Hamilton
+ORD0040,customer40@example.com,HP LaserJet Printer,1,2025-07-04,2025-07-08,,Out for Delivery,Hamilton
+ORD0041,customer41@example.com,HP LaserJet Printer,5,2025-06-24,,,Processing,Wellington
+ORD0042,customer42@example.com,Dell XPS 13,5,2025-06-30,2025-07-04,,Shipped,Auckland
+ORD0043,customer43@example.com,Dell XPS 13,2,2025-07-06,2025-07-09,,Out for Delivery,Wellington
+ORD0044,customer44@example.com,Samsung Curved Monitor,5,2025-07-08,2025-07-11,,Shipped,Hamilton
+ORD0045,customer45@example.com,HP LaserJet Printer,2,2025-06-27,2025-06-30,,Out for Delivery,Wellington
+ORD0046,customer46@example.com,Logitech MX Keys,1,2025-07-06,,,Processing,Christchurch
+ORD0047,customer47@example.com,HP LaserJet Printer,2,2025-06-29,2025-07-01,,Cancelled,Hamilton
+ORD0048,customer48@example.com,Logitech MX Keys,3,2025-06-29,2025-06-30,,Cancelled,Dunedin
+ORD0049,customer49@example.com,MacBook Pro 14-inch,5,2025-07-03,,,Processing,Wellington
+ORD0050,customer50@example.com,HP LaserJet Printer,3,2025-07-03,,,Processing,Wellington
+ORD0051,customer51@example.com,Dell XPS 13,5,2025-07-03,2025-07-05,2025-07-09,Delivered,Wellington
+ORD0052,customer52@example.com,MacBook Pro 14-inch,1,2025-06-26,2025-06-27,2025-06-30,Delivered,Christchurch
+ORD0053,customer53@example.com,HP LaserJet Printer,3,2025-07-02,,,Processing,Wellington
+ORD0054,customer54@example.com,Logitech MX Keys,2,2025-07-04,2025-07-05,,Cancelled,Hamilton
+ORD0055,customer55@example.com,MacBook Pro 14-inch,1,2025-07-02,2025-07-04,,Cancelled,Auckland
+ORD0056,customer56@example.com,HP LaserJet Printer,1,2025-07-04,2025-07-09,,Shipped,Hamilton
+ORD0057,customer57@example.com,Dell XPS 13,5,2025-06-29,2025-07-01,,Cancelled,Christchurch
+ORD0058,customer58@example.com,Samsung Curved Monitor,2,2025-06-28,,,Processing,Christchurch
+ORD0059,customer59@example.com,HP LaserJet Printer,1,2025-07-02,2025-07-05,,Cancelled,Wellington
+ORD0060,customer60@example.com,Logitech MX Keys,3,2025-07-06,2025-07-07,,Shipped,Dunedin
+ORD0061,customer61@example.com,MacBook Pro 14-inch,4,2025-07-05,2025-07-07,,Shipped,Auckland
+ORD0062,customer62@example.com,Asus ROG Gaming Laptop,3,2025-06-27,2025-06-30,2025-07-04,Delivered,Christchurch
+ORD0063,customer63@example.com,Logitech MX Keys,3,2025-06-30,2025-07-02,2025-07-04,Delivered,Dunedin
+ORD0064,customer64@example.com,HP LaserJet Printer,5,2025-07-05,2025-07-08,,Out for Delivery,Christchurch
+ORD0065,customer65@example.com,MacBook Pro 14-inch,5,2025-07-07,2025-07-09,2025-07-10,Delivered,Christchurch
+ORD0066,customer66@example.com,HP LaserJet Printer,2,2025-07-02,2025-07-05,,Cancelled,Auckland
+ORD0067,customer67@example.com,Asus ROG Gaming Laptop,2,2025-06-25,,,Processing,Wellington
+ORD0068,customer68@example.com,Samsung Curved Monitor,4,2025-07-02,2025-07-06,,Out for Delivery,Wellington
+ORD0069,customer69@example.com,MacBook Pro 14-inch,1,2025-07-02,2025-07-05,2025-07-07,Delivered,Wellington
+ORD0070,customer70@example.com,Asus ROG Gaming Laptop,3,2025-07-06,,,Processing,Christchurch
+ORD0071,customer71@example.com,Dell XPS 13,2,2025-07-01,2025-07-06,,Shipped,Christchurch
+ORD0072,customer72@example.com,Dell XPS 13,5,2025-06-26,,,Processing,Christchurch
+ORD0073,customer73@example.com,Samsung Curved Monitor,1,2025-06-24,2025-06-28,,Shipped,Auckland
+ORD0074,customer74@example.com,Logitech MX Keys,1,2025-06-24,2025-06-26,,Out for Delivery,Wellington
+ORD0075,customer75@example.com,Logitech MX Keys,4,2025-06-29,2025-07-02,,Shipped,Auckland
+ORD0076,customer76@example.com,Asus ROG Gaming Laptop,3,2025-07-03,2025-07-08,,Shipped,Hamilton
+ORD0077,customer77@example.com,MacBook Pro 14-inch,1,2025-07-04,2025-07-07,,Out for Delivery,Christchurch
+ORD0078,customer78@example.com,Logitech MX Keys,2,2025-06-24,2025-06-29,,Out for Delivery,Wellington
+ORD0079,customer79@example.com,Samsung Curved Monitor,4,2025-06-24,2025-06-27,2025-06-29,Delivered,Auckland
+ORD0080,customer80@example.com,MacBook Pro 14-inch,3,2025-06-29,2025-06-30,,Shipped,Wellington
+ORD0081,customer81@example.com,Dell XPS 13,1,2025-06-25,2025-06-26,,Out for Delivery,Auckland
+ORD0082,customer82@example.com,MacBook Pro 14-inch,4,2025-07-04,2025-07-09,2025-07-13,Delivered,Hamilton
+ORD0083,customer83@example.com,HP LaserJet Printer,1,2025-06-30,2025-07-03,,Out for Delivery,Dunedin
+ORD0084,customer84@example.com,Logitech MX Keys,1,2025-06-30,2025-07-02,,Shipped,Hamilton
+ORD0085,customer85@example.com,HP LaserJet Printer,3,2025-06-28,2025-06-30,,Out for Delivery,Wellington
+ORD0086,customer86@example.com,Samsung Curved Monitor,3,2025-06-30,2025-07-01,,Cancelled,Christchurch
+ORD0087,customer87@example.com,Dell XPS 13,3,2025-07-07,2025-07-10,,Shipped,Hamilton
+ORD0088,customer88@example.com,Asus ROG Gaming Laptop,4,2025-07-05,2025-07-09,,Cancelled,Christchurch
+ORD0089,customer89@example.com,HP LaserJet Printer,2,2025-06-27,2025-07-02,,Shipped,Dunedin
+ORD0090,customer90@example.com,Asus ROG Gaming Laptop,2,2025-06-25,2025-06-28,,Cancelled,Auckland
+ORD0091,customer91@example.com,Dell XPS 13,4,2025-07-03,2025-07-06,,Shipped,Wellington
+ORD0092,customer92@example.com,HP LaserJet Printer,3,2025-06-30,2025-07-03,,Shipped,Christchurch
+ORD0093,customer93@example.com,Asus ROG Gaming Laptop,4,2025-06-27,2025-06-29,2025-07-02,Delivered,Hamilton
+ORD0094,customer94@example.com,MacBook Pro 14-inch,5,2025-06-30,2025-07-05,,Shipped,Wellington
+ORD0095,customer95@example.com,Dell XPS 13,5,2025-07-03,2025-07-04,2025-07-05,Delivered,Dunedin
+ORD0096,customer96@example.com,Asus ROG Gaming Laptop,3,2025-06-27,2025-06-29,,Out for Delivery,Christchurch
+ORD0097,customer97@example.com,Samsung Curved Monitor,4,2025-06-29,,,Processing,Christchurch
+ORD0098,customer98@example.com,HP LaserJet Printer,5,2025-07-06,,,Processing,Wellington
+ORD0099,customer99@example.com,Samsung Curved Monitor,5,2025-07-02,,,Processing,Dunedin
+ORD0100,customer100@example.com,HP LaserJet Printer,3,2025-07-03,,,Processing,Christchurch
+ORD0101,customer101@example.com,Samsung Curved Monitor,1,2025-07-07,,,Processing,Auckland
+ORD0102,customer102@example.com,HP LaserJet Printer,1,2025-07-08,,,Processing,Wellington
+ORD0103,customer103@example.com,Dell XPS 13,5,2025-06-27,2025-07-02,2025-07-05,Delivered,Wellington
+ORD0104,customer104@example.com,Asus ROG Gaming Laptop,3,2025-07-01,2025-07-02,,Out for Delivery,Hamilton
+ORD0105,customer105@example.com,Asus ROG Gaming Laptop,1,2025-07-01,2025-07-04,,Out for Delivery,Hamilton
+ORD0106,customer106@example.com,Samsung Curved Monitor,3,2025-07-06,2025-07-11,2025-07-15,Delivered,Wellington
+ORD0107,customer107@example.com,HP LaserJet Printer,2,2025-07-08,,,Processing,Dunedin
+ORD0108,customer108@example.com,Logitech MX Keys,4,2025-06-25,2025-06-27,,Out for Delivery,Wellington
+ORD0109,customer109@example.com,MacBook Pro 14-inch,4,2025-07-04,2025-07-09,2025-07-11,Delivered,Hamilton
+ORD0110,customer110@example.com,MacBook Pro 14-inch,4,2025-06-27,2025-06-28,2025-06-29,Delivered,Wellington
+ORD0111,customer111@example.com,Dell XPS 13,3,2025-06-26,2025-06-28,,Out for Delivery,Auckland
+ORD0112,customer112@example.com,Samsung Curved Monitor,3,2025-07-04,2025-07-09,,Cancelled,Wellington
+ORD0113,customer113@example.com,Dell XPS 13,1,2025-07-02,2025-07-04,,Cancelled,Dunedin
+ORD0114,customer114@example.com,Asus ROG Gaming Laptop,3,2025-07-03,2025-07-07,2025-07-08,Delivered,Wellington
+ORD0115,customer115@example.com,Logitech MX Keys,1,2025-06-24,2025-06-29,,Out for Delivery,Wellington
+ORD0116,customer116@example.com,HP LaserJet Printer,2,2025-07-07,,,Processing,Wellington
+ORD0117,customer117@example.com,Dell XPS 13,3,2025-06-29,,,Processing,Wellington
+ORD0118,customer118@example.com,MacBook Pro 14-inch,2,2025-07-07,2025-07-12,2025-07-16,Delivered,Christchurch
+ORD0119,customer119@example.com,Dell XPS 13,5,2025-06-26,2025-06-28,,Out for Delivery,Wellington
+ORD0120,customer120@example.com,HP LaserJet Printer,1,2025-07-02,2025-07-05,,Cancelled,Dunedin
+ORD0121,customer121@example.com,Logitech MX Keys,1,2025-06-28,2025-06-29,,Shipped,Christchurch
+ORD0122,customer122@example.com,Samsung Curved Monitor,3,2025-07-03,2025-07-04,,Shipped,Auckland
+ORD0123,customer123@example.com,Logitech MX Keys,2,2025-07-07,2025-07-09,2025-07-13,Delivered,Hamilton
+ORD0124,customer124@example.com,MacBook Pro 14-inch,3,2025-07-04,2025-07-08,,Cancelled,Auckland
+ORD0125,customer125@example.com,Asus ROG Gaming Laptop,5,2025-06-24,2025-06-25,,Cancelled,Auckland
+ORD0126,customer126@example.com,Samsung Curved Monitor,5,2025-06-26,2025-06-30,,Shipped,Dunedin
+ORD0127,customer127@example.com,Dell XPS 13,3,2025-06-26,2025-06-29,2025-07-03,Delivered,Dunedin
+ORD0128,customer128@example.com,Dell XPS 13,4,2025-07-03,2025-07-04,,Out for Delivery,Dunedin
+ORD0129,customer129@example.com,MacBook Pro 14-inch,2,2025-06-27,2025-07-02,,Out for Delivery,Wellington
+ORD0130,customer130@example.com,Asus ROG Gaming Laptop,4,2025-07-05,2025-07-07,,Cancelled,Hamilton
+ORD0131,customer131@example.com,Samsung Curved Monitor,2,2025-07-01,2025-07-05,,Out for Delivery,Wellington
+ORD0132,customer132@example.com,Asus ROG Gaming Laptop,1,2025-07-06,2025-07-10,,Shipped,Christchurch
+ORD0133,customer133@example.com,MacBook Pro 14-inch,5,2025-07-08,2025-07-13,,Out for Delivery,Auckland
+ORD0134,customer134@example.com,Samsung Curved Monitor,5,2025-07-05,,,Processing,Hamilton
+ORD0135,customer135@example.com,HP LaserJet Printer,1,2025-07-07,2025-07-09,2025-07-13,Delivered,Dunedin
+ORD0136,customer136@example.com,Asus ROG Gaming Laptop,2,2025-07-04,2025-07-07,,Cancelled,Auckland
+ORD0137,customer137@example.com,Dell XPS 13,1,2025-07-05,2025-07-06,2025-07-10,Delivered,Christchurch
+ORD0138,customer138@example.com,Logitech MX Keys,3,2025-06-27,2025-07-01,,Shipped,Hamilton
+ORD0139,customer139@example.com,MacBook Pro 14-inch,5,2025-07-01,2025-07-03,,Shipped,Hamilton
+ORD0140,customer140@example.com,Dell XPS 13,5,2025-07-02,2025-07-03,,Shipped,Hamilton
+ORD0141,customer141@example.com,HP LaserJet Printer,1,2025-07-08,2025-07-10,,Out for Delivery,Christchurch
+ORD0142,customer142@example.com,HP LaserJet Printer,5,2025-07-01,2025-07-06,,Shipped,Hamilton
+ORD0143,customer143@example.com,Dell XPS 13,4,2025-07-06,2025-07-07,,Shipped,Dunedin
+ORD0144,customer144@example.com,Samsung Curved Monitor,1,2025-06-27,2025-06-29,,Out for Delivery,Auckland
+ORD0145,customer145@example.com,Logitech MX Keys,1,2025-06-24,2025-06-25,2025-06-29,Delivered,Auckland
+ORD0146,customer146@example.com,HP LaserJet Printer,1,2025-07-08,2025-07-13,2025-07-17,Delivered,Dunedin
+ORD0147,customer147@example.com,MacBook Pro 14-inch,5,2025-07-08,2025-07-13,,Cancelled,Christchurch
+ORD0148,customer148@example.com,Asus ROG Gaming Laptop,4,2025-06-24,2025-06-26,,Cancelled,Christchurch
+ORD0149,customer149@example.com,Samsung Curved Monitor,1,2025-06-27,2025-07-01,,Out for Delivery,Wellington
+ORD0150,customer150@example.com,HP LaserJet Printer,2,2025-07-06,2025-07-09,,Out for Delivery,Christchurch
+ORD0151,customer151@example.com,Asus ROG Gaming Laptop,3,2025-07-01,,,Processing,Dunedin
+ORD0152,customer152@example.com,Asus ROG Gaming Laptop,4,2025-06-25,2025-06-30,,Cancelled,Auckland
+ORD0153,customer153@example.com,MacBook Pro 14-inch,2,2025-06-27,2025-07-02,,Shipped,Hamilton
+ORD0154,customer154@example.com,HP LaserJet Printer,3,2025-06-26,2025-06-29,,Out for Delivery,Wellington
+ORD0155,customer155@example.com,Asus ROG Gaming Laptop,2,2025-06-27,2025-07-01,,Shipped,Auckland
+ORD0156,customer156@example.com,MacBook Pro 14-inch,2,2025-07-07,2025-07-11,,Cancelled,Dunedin
+ORD0157,customer157@example.com,HP LaserJet Printer,5,2025-06-30,2025-07-04,2025-07-07,Delivered,Hamilton
+ORD0158,customer158@example.com,Dell XPS 13,3,2025-07-04,,,Processing,Christchurch
+ORD0159,customer159@example.com,Asus ROG Gaming Laptop,3,2025-07-08,2025-07-09,2025-07-11,Delivered,Auckland
+ORD0160,customer160@example.com,Samsung Curved Monitor,1,2025-06-26,2025-06-29,,Shipped,Auckland
+ORD0161,customer161@example.com,HP LaserJet Printer,5,2025-06-24,2025-06-25,,Cancelled,Dunedin
+ORD0162,customer162@example.com,MacBook Pro 14-inch,1,2025-06-24,,,Processing,Christchurch
+ORD0163,customer163@example.com,Samsung Curved Monitor,4,2025-07-06,2025-07-08,,Cancelled,Hamilton
+ORD0164,customer164@example.com,HP LaserJet Printer,3,2025-07-02,2025-07-07,2025-07-11,Delivered,Wellington
+ORD0165,customer165@example.com,Samsung Curved Monitor,2,2025-07-06,2025-07-09,,Shipped,Dunedin
+ORD0166,customer166@example.com,Dell XPS 13,2,2025-06-28,2025-07-02,,Out for Delivery,Hamilton
+ORD0167,customer167@example.com,MacBook Pro 14-inch,3,2025-07-06,2025-07-10,2025-07-14,Delivered,Christchurch
+ORD0168,customer168@example.com,Asus ROG Gaming Laptop,5,2025-07-05,,,Processing,Hamilton
+ORD0169,customer169@example.com,MacBook Pro 14-inch,1,2025-07-04,2025-07-06,2025-07-07,Delivered,Christchurch
+ORD0170,customer170@example.com,HP LaserJet Printer,5,2025-07-08,2025-07-09,,Shipped,Christchurch
+ORD0171,customer171@example.com,Asus ROG Gaming Laptop,2,2025-07-04,2025-07-09,,Cancelled,Christchurch
+ORD0172,customer172@example.com,Dell XPS 13,5,2025-06-25,2025-06-26,2025-06-29,Delivered,Hamilton
+ORD0173,customer173@example.com,Dell XPS 13,1,2025-07-05,2025-07-07,2025-07-11,Delivered,Wellington
+ORD0174,customer174@example.com,Asus ROG Gaming Laptop,4,2025-07-08,2025-07-13,2025-07-17,Delivered,Hamilton
+ORD0175,customer175@example.com,Dell XPS 13,1,2025-07-05,2025-07-07,,Out for Delivery,Dunedin
+ORD0176,customer176@example.com,Dell XPS 13,5,2025-06-25,2025-06-26,,Shipped,Hamilton
+ORD0177,customer177@example.com,HP LaserJet Printer,1,2025-07-06,2025-07-10,,Shipped,Auckland
+ORD0178,customer178@example.com,Dell XPS 13,5,2025-07-07,2025-07-09,,Out for Delivery,Christchurch
+ORD0179,customer179@example.com,HP LaserJet Printer,3,2025-07-04,2025-07-07,,Shipped,Christchurch
+ORD0180,customer180@example.com,Samsung Curved Monitor,5,2025-07-08,2025-07-10,,Shipped,Dunedin
+ORD0181,customer181@example.com,Samsung Curved Monitor,4,2025-07-02,2025-07-06,,Shipped,Dunedin
+ORD0182,customer182@example.com,Samsung Curved Monitor,2,2025-06-24,2025-06-26,2025-06-27,Delivered,Wellington
+ORD0183,customer183@example.com,Asus ROG Gaming Laptop,2,2025-06-30,2025-07-05,,Cancelled,Auckland
+ORD0184,customer184@example.com,Samsung Curved Monitor,4,2025-07-07,2025-07-12,2025-07-14,Delivered,Christchurch
+ORD0185,customer185@example.com,MacBook Pro 14-inch,4,2025-07-06,,,Processing,Wellington
+ORD0186,customer186@example.com,HP LaserJet Printer,3,2025-06-25,,,Processing,Dunedin
+ORD0187,customer187@example.com,Asus ROG Gaming Laptop,5,2025-06-27,2025-06-28,2025-06-29,Delivered,Auckland
+ORD0188,customer188@example.com,Asus ROG Gaming Laptop,1,2025-06-30,2025-07-01,,Out for Delivery,Christchurch
+ORD0189,customer189@example.com,Logitech MX Keys,4,2025-07-01,2025-07-06,2025-07-07,Delivered,Auckland
+ORD0190,customer190@example.com,Samsung Curved Monitor,2,2025-06-24,2025-06-26,,Out for Delivery,Christchurch
+ORD0191,customer191@example.com,Samsung Curved Monitor,4,2025-06-27,2025-06-30,2025-07-02,Delivered,Hamilton
+ORD0192,customer192@example.com,HP LaserJet Printer,5,2025-07-05,2025-07-06,,Cancelled,Christchurch
+ORD0193,customer193@example.com,Asus ROG Gaming Laptop,2,2025-06-28,2025-06-30,,Shipped,Christchurch
+ORD0194,customer194@example.com,Dell XPS 13,2,2025-06-26,2025-07-01,,Cancelled,Dunedin
+ORD0195,customer195@example.com,Dell XPS 13,5,2025-06-29,2025-07-02,,Cancelled,Auckland
+ORD0196,customer196@example.com,Logitech MX Keys,5,2025-06-26,2025-06-28,,Out for Delivery,Dunedin
+ORD0197,customer197@example.com,Asus ROG Gaming Laptop,3,2025-07-03,2025-07-08,,Shipped,Dunedin
+ORD0198,customer198@example.com,Dell XPS 13,3,2025-06-29,2025-06-30,,Shipped,Dunedin
+ORD0199,customer199@example.com,Dell XPS 13,1,2025-06-24,2025-06-27,,Shipped,Hamilton
+ORD0200,customer200@example.com,HP LaserJet Printer,2,2025-06-26,2025-06-27,,Cancelled,Wellington
