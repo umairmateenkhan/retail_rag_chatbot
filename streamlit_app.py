@@ -5,26 +5,33 @@ import pandas as pd
 
 import streamlit_authenticator as stauth
 
+# Check if the user is logged out
 if "page" not in st.session_state:
     st.session_state.page = "login"
 
+# If the user is logged out, show a message and stop further execution
 if st.session_state["page"] == "logged_out":
     st.title("👋 You have been logged out")
     st.success("Thanks for visiting the Retail Chatbot.")
     st.markdown("To start again, please reload or [click here to login again].")
     st.stop()
 
+# Define the API endpoint
 API_URL = "http://127.0.0.1:8000/chat"  # Your FastAPI endpoint
 
+# Set up the Streamlit app
 st.set_page_config(page_title="Retail Chatbot", page_icon="🛒")
 st.title("Retail RAG Chatbot")
 
 
-
+# Authenticate the user
 passwords = ['123', 'abc']
 hashed_passwords = stauth.Hasher(passwords).generate()
 # st.warning(hashed_passwords)
-# Dummy credentials
+
+# Define users with hashed passwords
+# This is a stub for user authentication. In a real app, you would fetch this from a database or secure store.
+# Here, we are using a simple dictionary for demonstration purposes.
 users = {
     "usernames": {
         "john": {"name": "John", "password": hashed_passwords[0]},
@@ -32,15 +39,18 @@ users = {
     }
 }
 
+
+# Initialize the authenticator
 authenticator = stauth.Authenticate(
     users, "retail_chat", "abcdef", cookie_expiry_days=0
 )
 
+
+# Display the login form
 name, auth_status, username = authenticator.login(form_name="Login", location="main")
 
-
-
 # Handle incorrect credentials
+
 if auth_status is False:
     st.error("Username/password is incorrect.")
     st.stop()
@@ -56,22 +66,16 @@ else:
 
     if st.sidebar.button("Logout", key="logout_button"):
         authenticator.logout("Logout", location="sidebar")
-        # Clear all session state variables
-        # for key in list(st.session_state.keys()):
-        #     del st.session_state[key]
-
         # Force rerun and mark user as logged out
         st.session_state.page = "logged_out"
         st.rerun()
 
-
-
-
-
+# Initialize session state for authenticated user
 if "authenticated" not in st.session_state:
     st.session_state.authenticated = True  # Stub for now
     st.session_state.username = username
 
+# Initialize chat history in session state
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
@@ -80,20 +84,24 @@ for role, msg in st.session_state.messages:
     with st.chat_message(role):
         st.markdown(msg)
 
+# Input for user query
 query = st.chat_input("Ask about your order, inventory, or support...")
 
+# If the user submits a query, send it to the API and display the response
 if query:
     st.session_state.messages.append(("user", query))
     with st.chat_message("user"):
         st.markdown(query)
     
-    payload = {
-    "user": st.session_state.username,
-    "query": query
-    }
+    
+    headers = {"x-user": st.session_state.username}
+    # Prepare payload with user and query
+    payload = {"query": query}
 
-    # st.write("Sending payload:", payload)
-    response = requests.post(API_URL, json=payload)
+    # Send the query to the API
+    response = requests.post(API_URL, json=payload, headers=headers)
+    # st.write("DEBUG:", response.status_code, response.text)
+
 
     if response.ok:
         answer = response.json().get("response", "No response.")
