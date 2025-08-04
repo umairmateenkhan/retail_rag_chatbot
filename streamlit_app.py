@@ -114,11 +114,23 @@ if query:
 
 def get_chat_history(user: str):
     conn = sqlite3.connect("chat_history.db")
+    cursor = conn.cursor()
+    
+    # Ensure the table exists
+    cursor.execute('''CREATE TABLE IF NOT EXISTS chat_history (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        user TEXT,
+                        message TEXT,
+                        answer TEXT
+                    )''')
+    
+    # Now it's safe to run the SELECT
     df = pd.read_sql_query(
         "SELECT message, answer FROM chat_history WHERE user = ? ORDER BY id DESC",
         conn,
         params=(user,)
     )
+    
     conn.close()
     return df
 
